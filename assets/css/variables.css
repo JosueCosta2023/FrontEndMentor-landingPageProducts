@@ -1,0 +1,13 @@
+:root{
+
+    --primary-color:#30D7BA;
+    --secundary-color:#03D6F3;
+    --secundary-color-strong:#112D57;
+    --first-text:#000000;
+    --white-text:#FFFFFF;
+    --second-text:#5C5C5C;
+    --light-background:#ffffff;
+    --dark-background: linear-gradient(233deg,
+                     rgba(203,26,232,1) 0%, 
+                    rgba(55,189,166,1) 100%);
+}

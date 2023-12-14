@@ -1,0 +1,454 @@
+.section-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-feature .section-feature-title{
+    margin-top: 50px;
+    text-align: center;
+    color:var(--first-text);
+    width: 65%;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.section-feature .section-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.section-feature .section-card .card{
+    width: 350px;
+    height: 440px;
+    background-color: var(--white);
+    padding: 60px 44px;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 10px;
+}
+
+.section-feature .section-card .card .card-icon{
+    width: 62px;
+    height: 62px;
+    margin-bottom: 10px;
+}
+.section-feature .section-card .card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--first-text);
+    margin-bottom: 30px;
+}
+.section-feature .section-card .card .card-text{
+    font-size: 18px;
+    width: 284px;
+    margin-bottom: 40px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--first-text);
+}
+.section-feature .section-card .card .card-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--secundary-color);
+}
+
+.section-feature .section-card .card:nth-child(2){
+    background:var(--dark-background); 
+}
+
+.section-feature .section-card .card .cor-branca{
+    color: white;
+}
+
+/* Produtos e serviços Quick & easy Process */
+
+.section-container .section-content-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-content-primary-box{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 1300px;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+ .section-content-primary-box .primary-image{
+    width: 450px;
+    position: absolute;
+    right: 0;
+}
+.section-content-primary-box .primary-title{
+    color: var(--first-text);
+    width: 440px;
+    margin-bottom: 36px;
+    padding-left:10px;
+    font-size: 46px;
+    font-weight: 500;
+}
+.section-content-primary-box .primary-text{
+    width: 440px;
+    padding-left: 10px;
+    color: var(--second-text);
+}
+.section-content-primary-box .primary-buttons{
+    width: 500px;
+    margin-top: 50px;
+}
+.section-content-primary-box .primary-buttons .sing{
+    background: var(--secundary-color);
+    color: var(--white);
+    border: 2px solid var(--secundary-color);
+}
+.section-content-primary-box .primary-buttons .find{
+    background: var(--white);
+    border:2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+/* Take e Progress */
+
+.section-container .section-content-secundary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-content-secundary-box{
+    position: relative;
+    width: 75%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+   align-items: flex-end;
+   padding: 100px 0px;
+}
+
+.section-content-secundary-box .secundary-image{
+    width: 450px;
+    position: absolute;
+    left: 0;
+}
+
+.section-content-secundary-box .secundary-title{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--first-text);
+}
+.section-content-secundary-box .secundary-text{
+    padding-left: 10px;
+    color: var(--second-text);
+}
+.section-content-secundary-box .secundary-title,
+.section-content-secundary-box .secundary-text{
+    width: 440px;
+    margin-left: 100px;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+.section-content-secundary-box .secundary-buttons {
+    width: 440px;
+    text-align: start;
+}
+.section-content-secundary-box .secundary-buttons .sing{
+    background:var(--secundary-color);
+    border: 2px solid var(--secundary-color);
+    color: var(--white);
+}
+
+
+/* Cta content */
+
+.section-container .section-content-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container .section-content-cta .section-content-cta-box{
+    width: 1300px;
+    position: relative;
+    height: 100%;
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-title,
+.section-container .section-content-cta .section-content-cta-box .cta-text{
+    width: 40%;
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-title{
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: var(--first-text);
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-text{
+    font-size: 16px;
+    margin-bottom: 37px;
+    color: var(--second-text);
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-buttons{
+    margin-bottom: 43px;
+    width: 40%;
+    text-align: left;
+    padding: 40px 0px;
+}
+
+.section-container .section-content-cta .section-content-cta-box .cta-buttons .sing{
+    background-color: var(--secundary-color);
+    border: 2px solid var(--secundary-color);
+    color: var(--white);
+}
+.section-container .section-content-cta .section-content-cta-box .cta-buttons .find{
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+/* Price card */
+
+
+
+.section-content-price-box{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-content-price-box .price-header{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-content-price-box .price-header .price-title{
+    font-size: 46px;
+    font-weight: 500;
+    color: var(--first-text);
+    margin-bottom: 30px;
+}
+
+.section-content-price-box .price-header .price-text{
+    font-size: 18px;
+    color: var(--second-text);
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+.section-content-price-box .price-content-cards{
+    width: 100%;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.section-content-price-box .price-content-cards .card{
+    width: 335px;
+    max-width: 335px;
+    height: 987px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+}
+
+.section-content-price-box .price-content-cards .card .card-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--first-text);
+    margin-bottom: 10px;
+}
+
+.section-content-price-box .price-content-cards .card .card-subtitle{
+    font-size: 12px;
+    color: var(--second-text);
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.section-content-price-box .price-content-cards .card-image{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.section-content-price-box .price-content-cards .card-value{
+    height: 66px;
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-content-price-box .price-content-cards .card-value .card-value-price{
+    width: 67px;
+    margin-left: 10px;
+    font-size: 55px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.section-content-price-box .price-content-cards .card-value .card-value-centav{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-content-price-box .price-content-cards .card-value .card-value-centav span{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--second-text);
+}
+
+.section-content-price-box .price-content-cards .card-product-info{
+    height: 235px;
+    margin-bottom: 30px;
+}
+
+.section-content-price-box .price-content-cards .card-product-info .card-item{
+    font-size: 15px;
+    font-weight: 400px;
+    color: var(--first-text);
+    padding: 10px 10px;
+}
+
+.section-content-price-box .price-content-cards .card-product-info .card-item.inativo{
+    color: var(--second-text);
+    text-decoration: line-through;
+}
+
+.section-content-price-box .price-content-cards .btn-price{
+    background: var(--secundary-color);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+
+}
+
+
+/* Cta-subscribe */
+.section-container .section-content-cta-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content-cta-subrscribe-box {
+    width: 484px;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-title{
+    font-size: 46px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin-bottom: 17px;
+    text-align: center;
+    color: var(--first-text);
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--second-text);
+    margin-bottom: 70px;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-form{
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-form .input-box{
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-form .input-box .ativo{
+    font-size: 12px;
+    color: red;
+    opacity: 0;
+    margin-bottom: 10px;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-form .input-box .cta-form-email{
+    height: 52px;
+    width: 284px;
+    background-color:#efefef ;
+    border-radius: 6px;
+    padding: 33px 28px;
+    font-size: 15px;
+    border: 1px solid #d0d0d0;
+}
+
+.section-content-cta-subrscribe-box .cta-subscribe-form .subscribe{
+    width: 177px;
+    height: 52px;
+    cursor: pointer;
+    background: var(--secundary-color);
+    color: var(--white);
+    border: 2px solid var(--secundary-color);
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+
+

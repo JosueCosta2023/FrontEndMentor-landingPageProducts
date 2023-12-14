@@ -1,0 +1,207 @@
+
+/* Resposividade do Header e menu */
+@media(max-width: 806px){
+
+    .container{
+       width: 100%;
+    }
+
+    .header-content-nav .navbar ul{
+       display: none;
+    }
+    
+    .header-content-nav .navbar{
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .header-content-nav .navbar .btn-sing-position{
+        margin-right: 20px;
+    }
+
+    .header-content-nav .navbar .menu{
+        display: block;
+    }
+
+    .header-content-nav .logo{
+        width: 30%;
+    }
+
+    .header-content-info h1{
+        padding: 0px;
+        text-align: center;
+        font-size: 46px;
+        font-weight: 400;
+    }
+
+    .header-content-info .info-buttom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .header-content-info .info-buttom .btnDefault{
+        max-width: 250px;
+    }
+
+    .header-content-nav .navbar ul{
+        position: absolute;
+        width: 250px;
+        margin-right: 15px;
+        top: 100px;
+        background: var(--dark-background);
+        z-index: 3;
+        border-radius: 5px;
+        padding: 20px 0;
+    }   
+    .header-content-nav .navbar ul li{
+        padding: 30px 0px;
+    }    
+    .header-content-nav .navbar ul li a{
+        font-size: 1.5rem;
+    }    
+    .header-content-nav .navbar input:checked ~ ul{
+        display: block;
+    }   
+    .section-feature .section-card{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+}
+
+/* Resposividade container produtos */
+@media(max-width: 1360px){
+    .section-content-primary-box .primary-image{
+        position: relative;
+    }
+    .section-content-primary-box{
+        align-items: center;
+    }
+    .section-content-secundary-box .secundary-image{
+        position: relative;
+    }
+    .section-content-secundary-box{
+        align-items: center;
+    }
+    .section-content-secundary-box .secundary-buttons{
+        text-align: center;
+    }
+
+    .section-container .section-content-cta .section-content-cta-box .cta-image{
+        position: relative;
+        width: 500px;
+    }
+
+    .section-container .section-content-cta .section-content-cta-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-container .section-content-cta .section-content-cta-box .cta-buttons{
+        width: auto;
+    }
+
+
+}
+
+@media(max-width: 500px){
+
+
+    .section-content-primary-box .primary-title{
+        width: auto;
+    }
+    .section-content-primary-box .primary-image{
+        width: 350px;
+    }
+
+    .section-content-primary-box .primary-text{
+        width: auto;
+    }
+
+    .section-content-primary-box .primary-buttons{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        gap: 20px;
+    }
+
+    
+    .section-content-primary-box .primary-buttons .sing{
+        font-size: 14px;
+    }
+    
+    /* Seconds */
+    .section-container .section-content-secundary{
+        margin-top: -100px;
+    }
+    
+    .section-content-secundary-box{
+        align-items: center;
+        justify-content: center;
+    }
+    .section-content-secundary-box .secundary-title,
+    .section-content-secundary-box .secundary-text{
+        width: auto;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .section-content-secundary-box .secundary-image,
+    .section-container .section-content-cta .section-content-cta-box .cta-image{
+        width: 350px;
+    }
+
+    .section-container .section-content-cta .section-content-cta-box .cta-title,
+    .section-container .section-content-cta .section-content-cta-box .cta-text{
+    text-align: center;
+    width: auto;
+    }
+
+    .section-container .section-content-cta .section-content-cta-box .cta-title{
+        text-align: center;
+    }
+    .section-container .section-content-cta .section-content-cta-box .cta-text{
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 550px){
+    .section-container .section-content-cta .section-content-cta-box .cta-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-content-cta-subrscribe-box .cta-subscribe-form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-content-cta-subrscribe-box .cta-subscribe-form .subscribe{
+        width: 100%;
+        height: 52px;
+        margin: 0;
+        border-radius: 6px;
+    }
+
+    .section-content-cta-subrscribe-box .cta-subscribe-form .input-box .cta-form-email{
+        width: 100%;
+    }
+
+    .section-content-cta-subrscribe-box .cta-subscribe-form .input-box .ativo{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Resposividade container sobre nós */
+/* Resposividade container contato */
