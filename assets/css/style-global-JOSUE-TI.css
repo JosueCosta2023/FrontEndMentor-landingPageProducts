@@ -1,0 +1,93 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    color:var(--light-background);
+}
+
+.container{
+    display: flex;
+    justify-self: center;
+    width: 100%;
+}
+
+.header-container{
+    height: auto;
+    background: var(--dark-background);
+    margin-bottom: 20px;
+}
+
+.header-container .header-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+   
+}
+
+/* Feature */
+
+.section-container{
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.section-container .section-feature,
+.section-container .section-content-primary,
+.section-container .section-content-secundary,
+.section-container .section-content-cta,
+.section-container .section-content-price,
+.section-container .section-content-cta-subscribe{
+    width:90%;
+    margin: 0 auto;
+    
+}
+
+
+
+/* Footer */
+
+.footer-container{
+    width: 100%;
+}
+
+.footer-container .footer-contacts{
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/* Botoes */
+
+.buttons-large{
+    padding: 18px 46px;
+    border-radius: 39px;
+    border: 1px solid white;
+    margin-left: 13px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.buttons-large:last-child{
+    padding: 18px 46px;
+    border-radius: 39px;
+    border: 1px solid white;
+    margin-left: 13px;
+    color: white;
+    background-color: transparent;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.buttons-small{
+    padding: 20px 36px;
+    border: 1px solid white;
+    border-radius: 39px;
+    font-size: 16px;
+    color:var(--light-background);
+    font-weight: 500;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
